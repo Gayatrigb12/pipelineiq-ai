@@ -1,0 +1,46 @@
+# fastapi==0.115.5
+# uvicorn[standard]==0.32.1
+# langchain==0.3.7
+# langchain-openai==0.2.9
+# langchain-community==0.3.7
+# langchain-chroma==0.1.4
+# openai==1.54.4
+# chromadb==0.5.20
+# pydantic==2.9.2
+# pydantic-settings==2.6.1
+# python-dotenv==1.0.1
+
+# ── Web framework ──────────────────────────────────────────────────────────
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# ── LangChain core + integrations ─────────────────────────────────────────
+langchain==0.3.7
+# langchain-core==0.3.15
+langchain-community
+langchain-chroma==0.1.4
+langchain-groq==0.2.1
+langchain-huggingface==0.1.2
+
+# ── Groq SDK ──────────────────────────────────────────────────────────────
+groq==0.11.0
+
+# ── HuggingFace / sentence-transformers (local embeddings) ────────────────
+sentence-transformers==3.3.1
+transformers==4.46.3
+torch==2.5.1
+huggingface-hub==0.26.2
+tokenizers==0.20.3
+
+# ── Vector database ───────────────────────────────────────────────────────
+chromadb==0.5.20
+
+# ── Data / validation ─────────────────────────────────────────────────────
+pydantic==2.9.2
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+
+# ── Database (PostgreSQL — future) ────────────────────────────────────────
+sqlalchemy==2.0.35
+psycopg2-binary==2.9.10
+alembic==1.14.0

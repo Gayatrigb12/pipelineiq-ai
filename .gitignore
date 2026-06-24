@@ -1,0 +1,96 @@
+# ==========================================
+# OS Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# VS Code
+# ==========================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ==========================================
+# Python Backend
+# ==========================================
+backend/venv/
+backend/.venv/
+
+# Python cache
+backend/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/**/*.pyd
+backend/**/*.so
+
+# Environment variables
+backend/.env
+backend/.env.*
+
+# Logs
+backend/*.log
+
+# Testing / Coverage
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+
+# Build artifacts
+backend/build/
+backend/dist/
+backend/*.egg-info/
+
+# ==========================================
+# ChromaDB
+# ==========================================
+backend/chroma_db/
+
+# ==========================================
+# Data (optional)
+# Uncomment if data files should not be tracked
+# ==========================================
+# backend/data/
+# backend/data/*
+# !backend/data/.gitkeep
+
+# ==========================================
+# Frontend (React + Vite)
+# ==========================================
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+frontend/build/
+
+# Environment files
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Cache
+frontend/.vite/
+frontend/.cache/
+
+# ==========================================
+# IDEs
+# ==========================================
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# General
+# ==========================================
+*.log
+*.tmp
+*.temp
