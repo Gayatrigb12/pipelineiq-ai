@@ -31,3 +31,7 @@ export const uploadDeals = (deals) =>
 // POST /chat  — payload: { question: "..." }
 export const askQuestion = (question) =>
   client.post("/chat", { question });
+
+// GET /dashboard-stats
+export const getDashboardStats = () =>
+  client.get("/dashboard-stats");

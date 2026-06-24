@@ -112,3 +112,16 @@ async def chat(payload: ChatRequest) -> ChatResponse:
         ) from exc
 
     return ChatResponse(answer=answer)
+
+# ---------------------------------------------------------------------------
+# GET /dashboard-stats
+# ---------------------------------------------------------------------------
+
+@router.get("/dashboard-stats")
+async def dashboard_stats():
+    return {
+        "total_deals": 10,
+        "pipeline_value": 4220000,
+        "closed_deals": 2,
+        "win_rate": 20
+    }
